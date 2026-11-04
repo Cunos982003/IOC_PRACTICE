@@ -1,0 +1,7 @@
+public static String kiemTraEmail(String s) {
+    String regex = "^[\\s@.]+@[^\\s@.]+(\\.[^\\s@.]+)+$";
+    if (s!null && s.matches(regex) && !s.contains("..")){
+    return "HOP LE";
+    }
+    return "KHONG HOP LE";
+ }
