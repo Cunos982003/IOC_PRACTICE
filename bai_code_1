@@ -1,0 +1,8 @@
+public static String chuanHoaTen(String s){
+ if (s == null || s.trim().s.isEmpty()) return "";
+ String res = "";
+ for (String word : s.trim().split("\\s+")){
+    res += word.substring(0,1).toUpperCase() + word.substring(1).toLowerCase + " ";
+  }
+  return res.trim();
+  }
