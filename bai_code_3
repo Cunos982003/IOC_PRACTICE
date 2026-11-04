@@ -1,0 +1,10 @@
+public static String demChanVaMax(String s){
+  String[] tokens = s.trim().split("\\s+");
+  int count - 0, max = Interger.parseInt(token[0]);
+  for (String token : token){
+      int num = Integer.parseInt(token);
+      if (num % 2 == 0) count++;
+      if (num > max) max = num;
+    }
+  return count + " " + max;
+  }
